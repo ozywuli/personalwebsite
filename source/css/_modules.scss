@@ -1,0 +1,176 @@
+.globals .navigation {
+  &__item {
+    font-family: "Archivo Narrow", sans-serif;
+    font-size: 21px;
+  }
+  &__link {
+    display: block;
+    margin-bottom: -1px;
+    border-right: 1px solid #222;
+    border-bottom: 1px solid transparent;
+    padding: 8px 40px 8px 16px;
+    &:hover {
+      border-bottom: 1px solid $accent-hover;
+    }
+  }
+  &__link--title {
+    padding: 8px 142px 8px 0px;
+    text-transform: uppercase;
+  }
+}
+
+
+
+
+.page-title {
+  font-size: 4.2rem;
+  line-height: 4.2rem;
+}
+.page-descriptor {
+  color: #CCC;
+}
+
+
+
+
+.banner {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  font-size: 2.1rem;
+  &__title {
+    font-size: 4.2rem;
+  }
+}
+.bottom-border-blue {
+  border-bottom: 1px solid $accent;
+}
+
+.logo {
+  float: left;
+  padding-top: 3px;
+  padding-right: 7px;
+  border-collapse: separate;
+  border-spacing: 1px;
+  td {
+    background: #FFF;
+    padding: 2px;
+  }
+}
+
+
+
+
+.portfolio-menu-options {
+  font-size: 1.8rem;
+}
+
+
+
+.list-title {
+
+  &--toc {
+    margin-bottom: 7px;
+    font-size: 1.4rem;
+    font-weight: normal;
+  }
+  &--primary {
+    font-size: 2.1rem;
+  }
+
+}
+
+.table-of-content__title {
+  margin-bottom: 14px;
+  border-bottom: 1px solid #222;
+  font-size: 2.1rem;
+}
+.table-of-content__list {
+  margin-bottom: 14px;
+}
+
+
+.offset-sidebar {
+  margin-left: 286px;
+}
+
+.content-list__item {
+  list-style: square outside;
+}
+
+
+
+.sub-container-link {
+  display: block;
+
+  border-right: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  &:hover {
+    border-right: 1px solid $accent-hover;
+    border-bottom: 1px solid $accent-hover;
+  }
+
+}
+
+/*.sub-container-link--resources {
+  padding-left: 14px;
+}*/
+
+
+.see-portfolio {
+  display: block;
+  border: 1px solid $accent;
+  background: rgba(73, 158, 191, 0.1);
+  text-align: center;
+  width: 148px;
+  padding: 6px 0px;
+  font-size: 1.8rem;
+  &:hover {
+    border: 1px solid $accent-hover;
+    background: $accent-hover;
+    color: #FFF;
+  }
+}
+
+
+
+.portfolio-list {
+
+  &__link {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+}
+
+
+/*.cut-corner {
+  display: block;
+  width:300px;
+  height: 150px;
+  background: red;
+  position: relative;
+}
+
+.cut-corner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 80px solid #111;
+    border-left: 80px solid red;
+    width: 0;
+}
+
+*/
+
+
+
+
+.ozy {
+  font-weight: bold;
+  color: $accent;
+}
+
+.contact {
+  background: url('../img/nyc.jpg') no-repeat center center;
+}

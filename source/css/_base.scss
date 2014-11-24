@@ -1,0 +1,40 @@
+html, body {
+  height: 100%;
+  font-size: 62.5%
+}
+
+
+.globals {
+  background: #040404;
+  font-family: $content-font;
+  font-size: 62.5%;
+  color: #FFF;
+
+
+
+
+
+}
+
+
+a {
+  color: $accent;
+  &:hover {
+    color: $accent-hover;
+    @include transition(all 150ms ease 0s);
+  }
+
+}
+.white-link {
+  color: #FFF;
+}
+
+.main-content {
+  font-size: 1.4rem;
+}
+
+
+h3.h3 {
+  font-size: 2.1rem;
+  color: #DDD;
+}
